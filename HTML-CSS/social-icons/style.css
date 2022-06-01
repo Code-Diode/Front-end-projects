@@ -1,0 +1,50 @@
+.container{
+  position: absolute;
+  right:50%;
+  bottom:50%;
+  padding: 10px;
+  /* 50% top 50% left  */
+  transform: translate(50%,50%);
+  /*if i already set the top to 50% and left to 50%
+  then the translate function should be
+  translate(-50%,-50%)*/
+}
+.container div{
+  display: inline;
+}
+.container i{
+  margin:10px;
+  font-size: 1.5em;
+}
+
+.fa-brands{
+  padding:10px;
+  color:black;
+  border-radius: 50%;
+  width:30px;
+  text-align: center;
+}
+
+.fa-brands:hover{
+  color:white;
+}
+.container i:hover {
+    transform:  translate(10px, -10px);
+    box-shadow: -5px 20px 40px rgba(0, 0, 0, .5);
+}
+
+.fa-facebook-f:hover{
+  background-color: rgba(59, 89, 152,.7);
+}
+
+.fa-instagram:hover{
+  background-color: rgba(221, 75, 57,.7);
+}
+
+.fa-twitter:hover{
+  background-color: rgba(85, 172, 238,.7);
+}
+
+.fa-discord:hover {
+  background: rgba(67, 2, 151,.7);
+}
