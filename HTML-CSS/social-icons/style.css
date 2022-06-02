@@ -31,6 +31,7 @@
 .container i:hover {
     transform:  translate(10px, -10px);
     box-shadow: -5px 20px 40px rgba(0, 0, 0, .5);
+    transition: .5s;
 }
 
 .fa-facebook-f:hover{
