@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Garamond;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* main colors
+#FCF8E8 cosmic latte
+#94B49F dark sea-green
+#ECB390 crayola
+#DF7861 terra cotta */
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #FCF8E8;
+  color: #DF7861;
+}
+
+.brand-name {
+  margin-right: auto;
+  font-weight: 600;
+  font-family: Brush Script MT;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.nav li {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav li a:hover {
+  color: #ECB390;
+  cursor: pointer;
+}
+
+.main-img {
+  width: 100%;
+  height: 60vh;
+  background-color: #DF7861;
+  background-image: url("assets/images/setting-powder.png");
+  background-size: contain;
+}
+
+@media only screen and (min-width:800px) {
+  .main-img {
+    height: 90vh;
+  }
+}
+
+/* PRODUCTS SECTION */
+.section-title, #about {
+  padding: 20px;
+  background-color: #DF7861;
+  color: #FCF8E8;
+  margin: 0 0;
+  line-height: 3em;
+}
+
+#products {
+  margin: 10px 10px;
+}
+
+.product-type {
+  font-family: monospace;
+  color: #94B49F;
+  background-color: #FCF8E8;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  margin: 20px auto
+}
+
+.card {
+  width: 200px;
+  height: auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 4px 5px 2px rgba(0, 0, 0, 0.3);
+  background-color: #FCF8E8;
+  color: #000;
+  transition: ease-in .3s;
+}
+
+.card:hover {
+  border: none;
+  transform: scale(1.1);
+  /* box-shadow: none; */
+  /* filter: drop-shadow(5px 5px 5px 3px #94B49F); */
+}
+
+.card-img {
+  width: inherit;
+  height: auto;
+}
+
+.info {
+  margin: 5px;
+}
+
+/* About Us section */
+/* Contact Us section */
+#contact-section-title, .contact-form {
+  background-color: #FCF8E8;
+  color: #94B49F;
+  line-height: 3em;
+}
+
+.contact-form input {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.contact-button {
+  background-color: #94B49F;
+  color: #FCF8E8;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  transform: scale(1.3);
+}
+
+/* footer section */
+footer {
+  width: 100%;
+  height: 100px;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
